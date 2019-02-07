@@ -23,4 +23,12 @@ print("time.mktime(t) : %f" %  secs)
 print ("asctime(localtime(secs)): %s" % time.asctime(time.localtime(secs)))
 print (time.strftime("%b %d %Y %H:%M:%S", time.gmtime(t)))struct_time = time.strptime("30 Nov 00", "%d %b %y")
 struct_time = time.strptime("30 Nov 00", "%d %b %y")
-print("returned tuple: %s",struct_time)
+print("returned tuple: %s",struct_time)\
+import os
+os.environ['TZ'] = 'EST+05EDT,M4.1.0,M10.5.0'
+time.tzset()
+print time.strftime('%X %x %Z')
+
+os.environ['TZ'] = 'AEST-10AEDT-11,M10.5.0,M3.5.0'
+time.tzset()
+print time.strftime('%X %x %Z')
