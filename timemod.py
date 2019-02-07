@@ -5,4 +5,4 @@ localtime=time.localtime(time.time())#localtime
 print("###local current time:",localtime)
 localtimeasc=time.asctime(time.localtime(time.time()))
 print("####local curent time ASC :",localtimeasc)#local time asc format
-
+print("time.altsone:-",time.altzone)
