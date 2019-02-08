@@ -24,3 +24,20 @@ subset= DaysA <= DaysB
 superset = DaysA >= DaysB
 print(subset)
 print(superset)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
