@@ -29,7 +29,7 @@ else:print("Invalid String")'''
 @super_secret_function
 def my_function():
 	print("This functions no lontger be called...")
-my_function()'''
+my_function()
 def print_args(func):
 	def inner_func(*args,**kwargs):
 		print(args)
@@ -40,5 +40,22 @@ return inner_func
 def multiply(num_a,num_b):
 	return num_a*num_b
 print(multiply(3,5))
-
+import math
+x=int(input("enter the x value: "))
+y=int(input("enter the y value: "))
+def euclidean(x,y):
+	z=((x*x) + (y*y))
+	euclidean_dis=math.sqrt(z)
+	return euclidean
+print(euclidean)'''
+####Qudractic equation
+import math
+a=int(input("enter the input to for roots:"))
+b=int(input("enter the input to for roots:"))
+c=int(input("enter the input to for roots:"))
+print(a,b,c)
+delta=((b*b) - (4*a*c))
+x=math.sqrt(delta)
+x1=((-b + x ))/(2*a)
+#x2= ((-b - (math.sqrt(delta)))/(2*a)
 

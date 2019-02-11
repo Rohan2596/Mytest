@@ -1,0 +1,2 @@
+import utility
+printfunc("Apple")

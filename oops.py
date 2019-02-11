@@ -10,3 +10,8 @@ class person(object):
 kelly=person("kelly")
 joseph=person("joseph")
 john_doe=person("john_Doe")
+class A(object):
+	def __init__(self,num):
+		self.num=num
+	def __add__(self,other):
+		return A(self.num +other.num) 

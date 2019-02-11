@@ -1,3 +1,4 @@
+#
 from collections import OrderedDict
 roll_no=OrderedDict([
 	(11,'Shubham'),
@@ -17,7 +18,7 @@ marks = [
 for key ,value in marks:
 	dict_marks[key].append(value)
 print(list(dict_marks.items()))
-
+#Collection counter allows yous to easliy count objects.
 from collections import Counter
 count =Counter(name for name,marks in marks)
 print(count)
@@ -27,7 +28,7 @@ User=namedtuple('User','name age gender')
 shubham=User(name='Shubham',age=23,gender='M')
 print(shubham)
 print('Name of User:{0}'.format(shubham.name))
-
+#################Deque
 from collections import deque
 name=deque('Shubham')
 print('Deque  :',name)
