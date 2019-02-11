@@ -49,7 +49,7 @@ def euclidean(x,y):
 	return euclidean
 print(euclidean)'''
 ####Qudractic equation
-import math
+'''import math
 a=int(input("enter the input to for roots:"))
 b=int(input("enter the input to for roots:"))
 c=int(input("enter the input to for roots:"))
@@ -58,4 +58,13 @@ delta=((b*b) - (4*a*c))
 x=math.sqrt(delta)
 x1=((-b + x ))/(2*a)
 #x2= ((-b - (math.sqrt(delta)))/(2*a)
+'''
+a=int(input("Enter a"))
+b=int(input("Enter b"))
+c=int(input("Enter c"))
+sum= a+b+c
+if sum ==0:
+	print("Sum is zero")
+else:
+	print("SUm is not")
 
