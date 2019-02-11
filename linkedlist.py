@@ -1,20 +1,27 @@
+# class daynames:
+# 	def __init__(self,dataval=None):
+# 		self.dataval=dataval
+# 		self.nextval=None
+# e1=daynames("mon")
+# e2=daynames("tue")
+# e3=daynames("Wed")
+# e1.nextval=e3
+# e3.nexval=e2
+# e2.nextval=e1
+# thisvalue=e2
+# while thisvalue:
+# 	print(thisvalue.dataval)
+# 	thisvalue= thisvalue.nextval
 class Node:
-	def __init__(self,val):
-		self.data=val
-		self.next=None
-	def getData(self):
-		return self.data
-	def getNext(self):
-		return self.next
-	def setData(self,val):
-		self.data=val
-	def setNext(self,val):
-		self.next=val
-class LinkedList:
+	def __init__(self.dataval=None):
+		self.dataval=dataval
+		self.nextval= None
+class SlinkedList:
 	def __init__(self):
-		self.head=None
-	def isEmpty(self):
-		return self.head is None
-	def add(self,item):
-		new_node=Node(item)
-		new_node=Node(item)
+		self.headval=None
+list1=SlinkedList()
+list1.headval=Node("MOn")
+e2=Node("Tue")
+e3=Node(Wed)
+list1.headval.nextval=e2
+e2.nextval=e3	

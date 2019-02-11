@@ -2,7 +2,7 @@ year=int(input("Enter the Year: "))
 y=str(year)
 if len(y)==4:
 	print("Valid year")
-	if (year%4 ==0 & year%100!=0 | year %400):
+	if (year%4 ==0 & year%100!=0 | year %400==0):
 		print("Year,It is leap Year")
 	else:
 		print("Year,It is not Leap Year")

@@ -17,3 +17,4 @@ print("\nOkay,you flipped heads",total_heads,"times")
 print("\nand you flipped tails",total_tails,"times")
 print("Percentage of heads",total_heads/sum1 )
 print("Percentage of tails",total_tails/sum1 )
+
