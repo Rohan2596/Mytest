@@ -6,7 +6,7 @@ if n==0:
 elif n!=0:
 	for i in range(1,n):
 		h2=1/i;
-		print(i,"=","{:10.4f}".format(h2))
+		print(i, " = ","{:10.4f}".format(h2))
 		i+=1
 		
 else:
