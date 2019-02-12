@@ -82,10 +82,16 @@ x1=((-b + x ))/(2*a)
 # 		for i in range(num):
 # 			if (i%num)==0:
 # 				breakprint(i)
-def is_prime():
-	for i in range(101):
-		for j in range(2,i-1):
-			if i%j==0: break
-            else:
-            print (i)	
-is_prime()
+# def is_prime():
+# 	for i in range(101):
+# 		for j in range(2,i-1):
+# 			if i%j==0: break
+#             else:
+#             print (i)	
+# is_prime()
+import math
+c=int(input("enter the nonnegative number:"))
+t=c
+p1=math.fabs(t-c/t)
+print(p1)
+
