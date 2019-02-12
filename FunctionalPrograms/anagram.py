@@ -1,4 +1,4 @@
-str1=input("Enter the str1: ")
+str1=input("Enter the str1:    ")
 str2=input("Enter the str2: ")
 s1=list(str1)
 s2=list(str2)

@@ -59,12 +59,33 @@ x=math.sqrt(delta)
 x1=((-b + x ))/(2*a)
 #x2= ((-b - (math.sqrt(delta)))/(2*a)
 '''
-a=int(input("Enter a"))
-b=int(input("Enter b"))
-c=int(input("Enter c"))
-sum= a+b+c
-if sum ==0:
-	print("Sum is zero")
-else:
-	print("SUm is not")
+# a=int(input("Enter a"))
+# b=int(input("Enter b"))
+# c=int(input("Enter c"))
+# sum= a+b+c
+# if sum ==0:
+# 	print("Sum is zero")
+# # else:
+# # 	print("SUm is not")
+# def temperatureConversion(f,c):
+# 	a=c*9/5 +32
+# 	print("Celsius to fahrenheit: ",a)
+# 	b = (f-32)*5/9
+# 	print("fahrenheit to Celsius: ",b)
+# 	return a,b
+# temperatureConversion(45,12)
 
+# n1=int(input("enter the lower limit"))
+# n2=int(input("rnter the upper limit"))
+# for num in range(1,1000):
+# 	if num>1:
+# 		for i in range(num):
+# 			if (i%num)==0:
+# 				breakprint(i)
+def is_prime():
+	for i in range(101):
+		for j in range(2,i-1):
+			if i%j==0: break
+            else:
+            print (i)	
+is_prime()
