@@ -7,7 +7,7 @@ def bubblesort(alist):
                 alist[j+1]=temp
     return alist
     
-alist=bubblesort(['f','e','d','c','b','a']) 
+alist=bubblesort([5,5,1,4,2,10]) 
 def binary_sort(sorted_list, key,length,*args):
     start = 0
     end = length-1
@@ -23,4 +23,4 @@ def binary_sort(sorted_list, key,length,*args):
             start = mid + 1
     print("\nElement not found!")
     return -1
-binary_sort(alist,'c',6,2) 
+binary_sort(alist,10,6,2) 
