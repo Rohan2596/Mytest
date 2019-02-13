@@ -89,9 +89,24 @@ x1=((-b + x ))/(2*a)
 #             else:
 #             print (i)	
 # is_prime()
-import math
-c=int(input("enter the nonnegative number:"))
-t=c
-p1=math.fabs(t-c/t)
-print(p1)
+
+#Distance 
+# import math
+# a=int(input("enter the a: "));
+# b=int(input("enter the b: "));
+# c=int(input("enter the c: "));
+# delta=(b*b) - (4*a*c);
+# d=abs(delta);
+# roots1=(-b + (math.sqrt(abs(delta)))) / 2*a
+# print(roots1);
+import numpy as np 
+# x=[1,2,3]
+# a=np.asarray(x)
+# print(a)
+s=input()
+numbers=list(map(int,s.split()))
+print(numbers)
+s1=np.array(numbers)
+print(s1)
+print(s1[1])
 

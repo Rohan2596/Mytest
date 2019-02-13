@@ -8,6 +8,7 @@ elif n!=0:
 		h2=1/i;
 		print(i, " = ","{:10.4f}".format(h2))
 		i+=1
+		s=math.fsum(h2)
 		
 else:
 	print("Invalid series")

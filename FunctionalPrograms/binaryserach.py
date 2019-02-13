@@ -17,8 +17,4 @@
 #         print(alist)
 #     return alist
 # print(insertionsort([5,2,3,6,1,8]))
-import time
-seconds =time.time()
-print(seconds)
-local_times=time.ctime(seconds)
-print("local time",local_times)
+
