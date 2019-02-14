@@ -11,14 +11,23 @@ elif player ==0:
 else:
 	print("Player not")
 i=0
+while player==1:
+	while i<8:
+		pos=int(input("enter i"))
+		if lst[pos]==' ':
+			i+=1
+		lst[pos]="X"
+		print(lst)
+	break
 
-while i<8:
-	pos=int(input("enter i"))
+# while i<8:
+# 	pos=int(input("enter i"))
 	
-	if lst[pos]==' ':
-		i+=1
-	lst[pos]="X"
-	print(lst)
+# 	if lst[pos]==' ':
+# 		i+=1
+# 	lst[pos]="X"
+# 	print(lst)
+
 	
 # if ((lst[0][0]=="X" and lst[0][1]=="X" and lst[0][2]=="X") 
 # 	or (lst[1][0]=="X" and lst[1][1]=="X" and lst[1][2]=="X")

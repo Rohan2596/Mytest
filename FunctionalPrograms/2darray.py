@@ -1,6 +1,6 @@
 
 # T=[[11,12,5,2],[15,6,10],[10,8,12,5],[12,15,8,6]]
-from array import *
+# from array import *
 # print(T[0])
 # print(T[1][2])
 # for r in T:
@@ -24,15 +24,7 @@ from array import *
 # 	for c in r:
 # 		print(c,end=" ")
 #     print(r)
-# T=[2][2]
-# for r in range(3):
-# 	for c in range(3):
-# 		T[r][c].append(1)
-# print(T)
-
-
-T = [[], [], [], []]
+T=[]
 for r in T:
-    for c in r:
-        print(c,end = "*")
-    print()
+	for c in r:
+		print(c,end="*")
