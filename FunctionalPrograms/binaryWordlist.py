@@ -23,7 +23,7 @@ def binary_sort(sorted_list,key,*args):
 	while start<=end:
 		mid = int((start + end)/2)
 		if key ==sorted_list[mid]:
-			print("\nEntered number %s is present at position:%s",(key,mid))
+			print("\nEntered number {0} is present at position:{1}".format(key,mid))
 			return -1
 		elif key < sorted_list[mid]:
 			end =mid -1
@@ -32,6 +32,6 @@ def binary_sort(sorted_list,key,*args):
 	print("\n Element not found!")
 	return -1
 print(binary_sort(str1,"Python"))
-
+print("")
 
 fo.close()
