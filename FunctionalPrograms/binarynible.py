@@ -25,15 +25,5 @@ def swap(dec):
 n1=int(input("Enter the decimal to calculate Binary: "))
 dec=dectobinary(n1)
 swap(dec)
-# print("Enter the Binary output: ",Dec)
-# Dec.dtype(int)
-# # print("Enter the Length of bianry ",Dec1)
-# def swap(alist):
-# 	mid=len(alist)//2
-# 	lefthalf=alist[:mid]
-# 	righthalt=alist[mid:]
-# 	temp=lefthalf
-# 	lefthalf=righthalt
-# 	righthalt=temp
-# swap(Dec)
+
 

@@ -31,7 +31,7 @@ from array import *
 # print(T)
 
 
-T = [[], [], [], []]
+T = [[''], [], [], []]
 for r in T:
     for c in r:
         print(c,end = "*")

@@ -1,17 +1,22 @@
-str1=input("Enter the str1:    ")
+import numpy as np
+str1=input("Enter the str1: ")
 str2=input("Enter the str2: ")
-s1=list(str1)
-s2=list(str2)
-print("String List s1",s1)
-print("String list S2",s2)
-if len(s1)==len(s2) :
-	if s1==s2:
-		print("String are anagram")
-	else:
-		print("String are not anagram ")
-else:
-	print("String is not Anagram")
-# from collections import Counter
+
+#arr=np.zeros((len(str2)))
+# cnt=0
+# if len(str1)==len(str2):
+# 	 for x in range(len(str1)):
+# 	 	for y in range(len(str2)):
+# 	 		if str1[x]==str2[y] and arr[y]==0:
+# 	 			arr[y]=1
+# 	 			cnt+=1
+# 	 if cnt==len(str2):
+# 	 	print("String is anagram.")
+# 	 else:
+# 	 	print("String is not anagram.")
+# else:
+# 	print("String is not Anagram")
+# # from collections import Counter
 # def anagram(str1,str2):
 # 	if Counter(str1)==Counter(str2):
 # 		print("string are anagram")
@@ -31,3 +36,16 @@ else:
 # Enter the str1: keeo
 # Enter the str2: okpp
 # not a anagram
+
+s1=list(str1)
+s2=list(str2)
+
+if len(str1)==len(str2):
+	if s1.sort()==s2.sort():
+		print("Anagram")
+
+	# print("String are Anagram")
+	# else:
+	# 	print("String are *****(not)***** Anagram")
+else:
+	print("String are ****(not)*** Anagram")
