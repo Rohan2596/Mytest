@@ -5,3 +5,6 @@ elif n in range(0,6):
 	print(n)
 else:
 	print("Invalid")
+
+n=int(input("yes or no"))
+if 

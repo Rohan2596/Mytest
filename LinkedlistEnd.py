@@ -1,7 +1,3 @@
-#create nodes 
-# create lonked list
-# add nodes to linked list
-#print linked lis
 class Node:
 	def __init__(self,data):
 		self.data=data
@@ -9,12 +5,17 @@ class Node:
 class Linkedlist:
 	def __init__(self):
 		self.head=None
-	def insert(self,newNode):
-		#head=>john->None
+	def insertHead(self,newnode):
+		#data=>Mathew,next=>None
+		temporaryNode=self.head#john
+		self.head=newnode
+		self.head.next=temporaryNode
+		del temporaryNode
+
+	def insertEnd(self,newNode):
 		if self.head is None:
 			self.head=newNode
 		else:
-			#head=>John->Ben->None
 			lastNode=self.head
 			while True:
 				if lastNode.next is None:
@@ -28,13 +29,14 @@ class Linkedlist:
 				break
 			print(currentNode.data)
 			currentNode=currentNode.next
-#node==data,next
+
 
 firstNode=Node("John")
 linkedlist=Linkedlist()
-linkedlist.insert(firstNode)
+linkedlist.insertEnd(firstNode)
 secondNode=Node("Ben")
-linkedlist.insert(secondNode)
-thirdNode=Node("Mathew")
-linkedlist.insert(thirdNode)		
+linkedlist=Linkedlist()
+linkedlist.insertEnd(secondNode)
+thirdNode=Node("Mthews")
+linkedlist.insertHead(thirdNode)
 linkedlist.printlist()
