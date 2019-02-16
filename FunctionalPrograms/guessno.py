@@ -1,15 +1,15 @@
-def guessno(n):
-	start=1
-	end=n
-	while start <= end:
-		mid = int((start + end)/2)
-		print("This no :",mid)
-		if int(input())==1:
-			print("Number found",mid)
-			break
-        elif int(input("If less than : "))==1:
-            end = mid - 1
-        elif int(input("If greater than : "))==1:
-            start = mid + 1
-n=int(input("Enter the number"))
-guessno(n)
+import random
+n = random.randint(1, 10)
+guess = int(input("Enter an integer from 1 to 10: "))
+while n != "guess":
+    print
+    if guess < n:
+        print ("guess is low")
+        guess = int(input("Enter an integer from 1 to 10: "))
+    elif guess > n:
+        print ("guess is high")
+        guess = int(input("Enter an integer from 1 to 10: "))
+    else:
+        print ("you guessed it!")
+        break
+    print

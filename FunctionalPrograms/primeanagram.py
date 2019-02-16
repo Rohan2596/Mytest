@@ -40,7 +40,7 @@ for i in range(len(a1)-1):
 	 					arr[y]=1
 	 					cnt+=1
 	 		if cnt==len(str2):
-	 			print("String is anagram.")
+	 			print("String is anagram.")	
 	 		else:
 	 			print("String is not anagram.")
         else:
